@@ -16,7 +16,7 @@ console.log(nomesPadronizados);
 // for (let i = 0; i < nome.length; i++) {
 //  nomeMaiusculas += nome[i].toUpperCase()
 // }
-// console.log(nomeMaiusculas) //ALURA
+// console.log(nomeMaiusculas) //MB
 
 // Enquanto o método forEach não tem um retorno, o método map() pode retornar um array se a função callback retornar algum valor.
 

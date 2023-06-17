@@ -11,6 +11,7 @@ const salaPython = [7, 3.5, 8, 9.5];
 // Os parâmetros da função reduce são um pouco diferentes nesse caso passaremos 2 parâmetros sendo o primeiro chamado de acumulador e o segundo
 // E número depois da chave é o valor inicial
 // Reduce não altera array original
+
 function calculaMedia(notasDaSala) {
     const somaDasNotas = notasDaSala.reduce((acumulador, nota) => {
         return acumulador + nota;

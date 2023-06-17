@@ -1,27 +1,35 @@
-// let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-// let vogais = 'AEIOU';
-
-// let arrayLetras = letras.split('');
-// let arrayVogais= vogais.split('');
-
-// let frase = 'Gabriel';
-// let fraseMinuscula = frase.toUpperCase();
-
-// let arrayFrase = fraseMinuscula.split('');
-
-// arrayFrase.map((letra) =>
-// {
-//     if(arrayLetras.includes(letra)){
-//         console.log(arrayVogais.includes(letra)  ? `${letra} é vogal` : `${letra} é consoante`);
-//     } else {
-//         console.log(`${letra} não é letra`)
-//     }
-// }
-// )
-
-
 let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let vogais = 'AEIOU';
+
+let arrayLetras = letras.split('');
+let arrayVogais= vogais.split('');
+
+let frase = 'Tatyelle';
+let fraseMinuscula = frase.toUpperCase();
+
+let arrayFrase = fraseMinuscula.split('');
+
+arrayFrase.map((letra) =>
+{
+    if(arrayLetras.includes(letra)){
+        console.log(arrayVogais.includes(letra)  ? `${letra} é vogal` : `${letra} é consoante`);
+    } else {
+        console.log(`${letra} não é letra`)
+    }
+}
+)
+
+// for (let i = 0; i < arrayFrase.length; i++) {
+//  if(arrayLetras.includes(arrayFrase[i])){
+//         console.log(arrayVogais.includes(arrayFrase[i])  ? `${arrayFrase[i]} é vogal` : `${arrayFrase[i]} é consoante`);
+//     } else {
+//         console.log(`${arrayFrase[i]} não é letra`)
+//     }
+// }
+
+
+// let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let vogais = 'AEIOU';
 // let frase = 'Gabriel';
 // let fraseMaiuscula = frase.toUpperCase()
 
@@ -33,4 +41,4 @@ let vogais = 'AEIOU';
 //     }
 // }
 
-console.log((letras.split('')).includes((vogais.split(''))));
+

@@ -1,39 +1,84 @@
 // explorando funções de callback
-const nomes = ["Evaldo", "Mari", "Camis"];
+const animais = ["🦈", "🐐", "🐮"];
 
-nomes.forEach(function (nome) {
-    console.log(nome)
+animais.forEach(function (icone) {
+    console.log(icone)
 });
+
+
+
+
+
+
+
+
+
+
+
 
 // utilizando arrow functions
 
-nomes.forEach((nome) => {
-    console.log(nome)
+/*
+animais.forEach((icone) => {
+    console.log(icone)
 });
+*/
+
+
+
+
+
+
+
 
 // Existe uma terceira forma de usarmos as funções de callback
 // Vamos criar uma função callback de forma externa
-function imprimeNome(nome) {
-    console.log(nome);
-}
+/*function imprimeIcone(icone) {
+    console.log(icone);
+}*/
 
 // Perceba que essa função será usada como função callback da mesma forma
 // Temos que utilizar nesse caso sem os parêtenses, se utilizar com os parêntese ele vai entender que quero o retorno da função o que não está correto, não 
 // estamos retornando nada
 // Daremos preferência as arrow functions
-nomes.forEach(imprimeNome);
+/*
+animais.forEach(imprimeIcone);
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 //O que é um método? Em programação, chamamos de método uma função que é propriedade de um objeto.
 // forEach() é um método de array, significa que esta função foi desenvolvida para trabalhar apenas com esse tipo de dado - no caso, com arrays.
 
 // O forEach(), assim como alguns outros métodos de array do JavaScript que estamos vendo no curso, utiliza
 //  a abordagem funcional de funções callback para executar o código necessário a cada elemento iterado no laço:
-
+/*
 const lista = [1, 2, 3, 4, 5];
 let soma = 0;
 
 lista.forEach(numero => soma += numero);
 console.log(soma) ;
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Assim, vemos que o forEach() não retorna nenhum tipo de valor, apenas executa o que está dentro do bloco da função callback,

@@ -12,31 +12,43 @@ notas.forEach(function (nota, indice) {
 
 const media = somaDasNotas/ notas.length;
 
-console.log(`A média das notas é ${media}.`);
+// console.log(`A média das notas é ${media}.`);
+
+
+
+
+
+
+
+
+
+
+
 // forEach tem uma vantagem em relação ao for of, nos parametros podemos passar mais um parâmetro que chamamos de indice
 
 // OUTRAS FORMAS DE REMOVER DADOS REPETIDOS
 
-// let city = [
-//     "surat",
-//     "ahmedabad",
-//     "rajkot",
-//     "mumbai",
-//     "surat",
-//     "delhi",
-//     "ahmedabad",
-//     "anand",
-//   ];
+let cidades = [
+    "Extrema",
+    "Mateus Leme",
+    "Rio de Janeiro",
+    "São Paulo",
+    "Extrema",
+    "Itaúna",
+    "Mateus Leme",
+    "São Paulo",
+  ];
   
-//   // Defining the unique cities from the above
-//   // array by using forEach loop
-//   let unique_city = [];
-//   city.forEach((c) => {
-//     if (!unique_city.includes(c)) {
-//       unique_city.push(c);
+  // Defining the unique cities from the above
+  // array by using forEach loop
+//   let cidade_unica = [];
+//   cidades.forEach((c) => {
+//     if (!cidade_unica.includes(c)) {
+//       cidade_unica.push(c);
 //     }
 //   });
+//   console.log(cidade_unica)
 
-// var arr = ['foo', 'bar', 'foo'];
-// var novaArr = arr.filter((este, i) => arr.indexOf(este) === i);
-// console.log(novaArr); //dá ['foo', 'bar']
+var arr = ['foo', 'bar', 'foo'];
+var novaArr = cidades.filter((este, i) => cidades.indexOf(este) === i);
+console.log(novaArr); //dá ['foo', 'bar']
